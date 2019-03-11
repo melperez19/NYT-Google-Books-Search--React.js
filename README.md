@@ -3,7 +3,7 @@
 ## Overview
 This is a React-based Google Books Search application that requires the creation of React components, helper/util functions, and React lifecycle methods to query and display books based on user searches. Node, Express and MongoDB are also incorporated so that users can save books to review or purchase later.
 
-![final-screenshot]()
+![final-screenshot](https://github.com/melperez19/NYT-Google-Books-Search--React.js/blob/master/google-book-react.JPG)
 
 This is a SPA (Single Page Application) that uses react-router-dom to navigate, hide and show the "Search" and "Saved" React components without changing the route within Express.
 
