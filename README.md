@@ -11,4 +11,4 @@ This is a SPA (Single Page Application) that uses react-router-dom to navigate, 
 
 * "Saved" - Renders all books saved to the Mongo database. User has an option to "View" the book, bringing them to the book on Google Books, or "Delete" a book, removing it from the Mongo database.
 
-                ******* This project is still in production mode and will be deployed once completed *************
+                ******* This project is still in production mode and will be deployed once completed *********
