@@ -9,10 +9,10 @@ const db = require("../models");
 module.exports = {
   findAll: function(req, res) {
     const { query: params } = req;
-    axios
-      .get("https://www.googleapis.com/books/v1/volumes?q=", {
-        params
-      })
+    let query = this.state.query;
+    // const key = "AIzaSyBcLO2-adApNYMMqnyC2_GPrBsS_l9hb3A";
+    const BASE_URL = "https://www.googleapis.com/books/v1/volumes?q=" + query;
+    axios.get(BASE_URL)
       .then(results =>
         results.data.items.filter(
           result =>
